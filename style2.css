@@ -1,0 +1,113 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(160, 160, 160); */
+    /* background-image: url(https://www.wallpaperbetter.com/wallpaper/150/554/326/fantastic-city-blur-lights-night-1080P-wallpaper.jpg); */
+    /* background-image: url(https://www.itl.cat/pngfile/big/311-3115182_wallpaper-city-blur-glare-city-blur-background-hd.jpg); */
+    background-image: url(https://wallpaperaccess.com/full/496589.jpg);
+}
+
+
+#card {
+    display: flex;
+    min-width: 330px;
+    max-width: 530px;
+    flex-direction: column;
+    min-height: 250px;
+    max-height: 200px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    /*BORDER RADIUS*/
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 2px solid #9c9c9c;
+    /* CSSMATIC */
+    /*BOX SHADOW*/
+    -webkit-box-shadow: 15px 13px 27px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 15px 13px 27px 2px rgba(0,0,0,0.75);
+    box-shadow: 15px 13px 27px 2px rgba(0,0,0,0.75);
+}
+#username{
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+#password{
+    margin: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.SignInButton{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 2em;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.SignInButton:hover{
+    background-color:rgb(43, 43, 43);
+    color: rgb(255, 255, 255);
+}
+
+#signin{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#text{
+    font-family: 'Roboto', sans-serif;
+}
+
+#forgot{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    position: relative;
+    bottom: 25px;
+}
+
+/* .signinButton{
+    margin: 1em;
+    border-radius: 20px;
+    padding: 10px 24px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+} */
+
+/* .niceInput{
+    margin: 1em;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
+}
+
+.niceInput:focus{
+    outline: 0em;
+    background-color:rgba(1,1,1,0.1);
+} */
