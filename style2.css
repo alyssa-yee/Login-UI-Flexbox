@@ -26,7 +26,6 @@ body{
     background-size: 100% 100%;
 }
 
-
 #card {
     display: flex;
     min-width: 330px;
@@ -42,7 +41,7 @@ body{
     -moz-border-radius: 8px 8px 8px 8px;
     -webkit-border-radius: 8px 8px 8px 8px;
     border: 2px solid #9c9c9c;
-    /* CSSMATIC */
+        /* CSSMATIC */
     /*BOX SHADOW*/
     -webkit-box-shadow: 15px 13px 27px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 15px 13px 27px 2px rgba(0,0,0,0.75);
@@ -72,10 +71,14 @@ body{
     padding: 10px 20px;
     transition: 0.3s;
 }
+.SignInButton:focus{
+    outline: none;
+}
 
 .SignInButton:hover{
     background-color:rgb(43, 43, 43);
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 
 #signin{
