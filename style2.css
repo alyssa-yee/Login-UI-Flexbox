@@ -20,6 +20,10 @@ body{
     /* background-image: url(https://www.wallpaperbetter.com/wallpaper/150/554/326/fantastic-city-blur-lights-night-1080P-wallpaper.jpg); */
     /* background-image: url(https://www.itl.cat/pngfile/big/311-3115182_wallpaper-city-blur-glare-city-blur-background-hd.jpg); */
     background-image: url(https://wallpaperaccess.com/full/496589.jpg);
+
+    background-position:fixed;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
 }
 
 
